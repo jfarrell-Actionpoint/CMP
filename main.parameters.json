@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "rg1Name": {
+      "value": "mc_cmp-aks-egress-rg_cmp-aks-egress_northeurope"
+    },
+    "rg2Name": {
+      "value": "rg-cmp-aks"
+    },
+    "rg3Name": {
+      "value": "cmp-aks-egress-rg"
+    },
+    "rg4Name": {
+      "value": "azureb2cprod"
+    },
+    "rgLocationNE": {
+      "value": "North Europe"
+    }
+  }
+}
